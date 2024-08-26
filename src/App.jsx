@@ -1,20 +1,18 @@
 import Navbar from "./components/Navbar";
-import MainSection from "./components/MainSection";
+import Header from "./components/Header";
 import AboutUs from "./components/AboutUs";
 import Services from "./components/Services";
-import Divider from "./components/Divider";
 import Contact from "./components/Contact";
+import Intro from "./components/Intro";
 
 function App() {
   return (
     <div className="bg-background">
       <Navbar />
-      <MainSection />
-      <Divider />
+      <Header />
+      <Intro />
       <Services />
-      <Divider />
       <AboutUs />
-      <Divider />
       <Contact />
     </div>
   );
